@@ -1,0 +1,6 @@
+comparison,papers,spearman_rho,top10_early_still_top10_pct,top10_today_already_top10_pct
+rank at 6 months vs. today,975,0.8868193599036873,73.87387387387388,75.22935779816514
+rank at 12 months vs. today,975,0.9461567597469578,82.72727272727273,83.4862385321101
+"model trained on 6-month rank, scored on 6-month rank",975,0.5416482358866418,,
+"model trained on 6-month rank, scored on today's rank",975,0.5645401477951666,,
+"model trained on today's rank, scored on today's rank",975,0.5576163368136842,,

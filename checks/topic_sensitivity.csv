@@ -1,0 +1,28 @@
+scope,topic,variant,2023 %,2026 %,direction
+sample,First galaxies,narrow,5.351,6.353,steady
+sample,Little Red Dots,narrow,0.0,12.961,gaining
+sample,Black holes & AGN,narrow,21.739,29.733,gaining
+sample,Population III,narrow,3.344,1.017,losing
+sample,Reionization,narrow,20.067,13.215,losing
+sample,Quenching,narrow,3.344,9.403,gaining
+sample,Dust,narrow,17.726,16.773,steady
+sample,Chemical abundances,narrow,21.07,19.441,steady
+sample,Lensing,narrow,17.726,13.977,losing
+sample,First galaxies,current,20.067,13.088,losing
+sample,Little Red Dots,current,0.0,12.961,gaining
+sample,Black holes & AGN,current,25.753,33.037,gaining
+sample,Population III,current,4.013,1.779,losing
+sample,Reionization,current,20.067,13.215,losing
+sample,Quenching,current,8.361,14.358,gaining
+sample,Dust,current,24.749,25.159,steady
+sample,Chemical abundances,current,22.742,22.618,steady
+sample,Lensing,current,17.726,14.104,losing
+sample,First galaxies,broad,27.09,17.154,losing
+sample,Little Red Dots,broad,0.0,13.088,gaining
+sample,Black holes & AGN,broad,26.421,33.164,gaining
+sample,Population III,broad,4.682,2.668,losing
+sample,Reionization,broad,21.405,14.485,losing
+sample,Quenching,broad,8.696,14.612,gaining
+sample,Dust,broad,24.749,25.159,steady
+sample,Chemical abundances,broad,27.759,29.352,steady
+sample,Lensing,broad,18.729,14.74,losing

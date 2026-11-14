@@ -1,0 +1,9 @@
+# never commit credentials
+.env
+*token*
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# Word lock files
+~$*

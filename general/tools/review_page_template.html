@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__PAGE_TITLE__</title>
+<style>
+:root {
+  --ink: #0b0b0b; --ink2: #52514e; --muted: #898781; --line: #e1e0d9; --bg: #faf9f5; --card: #ffffff;
+  --accent: #2a78d6; --yes: #1a8a5a; --yes-bg: #e6f4ec; --no: #c23b33; --no-bg: #fbe9e7;
+  --unsure: #a86b00; --unsure-bg: #fdf3dc; --mark: #fff0b3;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+header { position: sticky; top: 0; z-index: 10; background: var(--card); border-bottom: 1px solid var(--line); }
+.bar { max-width: 980px; margin: 0 auto; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.bar h1 { font-size: 16px; margin: 0; flex: 1 1 260px; }
+.progress { font-variant-numeric: tabular-nums; color: var(--ink2); font-size: 13.5px; }
+.progress b { color: var(--ink); }
+.meter { height: 4px; background: var(--line); }
+.meter > div { height: 4px; background: var(--accent); width: 0; transition: width .2s; }
+select, button, input[type=text] { font: inherit; font-size: 13.5px; }
+select, input[type=text] { border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; background: #fff; }
+.btn { border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 5px 12px; cursor: pointer; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+main { max-width: 980px; margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+details.help { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
+details.help summary { cursor: pointer; font-weight: 600; }
+.help dl { display: grid; grid-template-columns: 150px 1fr; gap: 6px 14px; margin: 10px 0; }
+.help dt { font-weight: 600; } .help p { margin: 6px 0; color: var(--ink2); }
+kbd { font: 12px ui-monospace, Menlo, monospace; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; background: #fff; }
+.card { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--line); border-radius: 8px; padding: 14px 16px; scroll-margin-top: 80px; }
+.card.focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--ink2); }
+.meta .pid { font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+.meta a { color: var(--accent); }
+.title { font-size: 16px; font-weight: 600; margin: 4px 0 8px; }
+.adsmeta { display: flex; flex-wrap: wrap; gap: 2px 18px; font-size: 13px; color: var(--ink2); margin: -4px 0 8px; }
+.adsmeta b { color: var(--ink2); font-weight: 600; }
+.abstract { color: var(--ink); margin: 0 0 10px; font-size: 14px; }
+.abstract.clamped { display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
+.more { font-size: 12.5px; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; margin: -6px 0 10px; }
+.snips { margin: 0 0 12px; padding: 0; list-style: none; display: grid; gap: 6px; }
+.snips li { font-size: 13.5px; color: var(--ink2); background: var(--bg); border-radius: 6px; padding: 6px 10px; }
+.snips .f { display: inline-block; min-width: 52px; font: 600 11px ui-monospace, Menlo, monospace; color: var(--muted); text-transform: uppercase; margin-right: 6px; }
+.nosnip { font-size: 13px; color: var(--muted); font-style: italic; margin: 0 0 12px; }
+mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1px; }
+.decide { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.decide button { border: 1px solid var(--line); background: #fff; border-radius: 6px; padding: 6px 12px; cursor: pointer; font-weight: 600; }
+.decide input[type=text] { flex: 1 1 220px; }
+.empty { text-align: center; color: var(--muted); padding: 40px; }
+.toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); background: var(--ink); color: #fff; padding: 8px 14px; border-radius: 6px; font-size: 13.5px; opacity: 0; transition: opacity .2s; pointer-events: none; }
+.toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <h1>__PAGE_TITLE__</h1>
+    <span class="progress" id="progress"></span>
+    <select id="filter" aria-label="Show">
+      <option value="all">Show all</option><option value="todo">Not decided yet</option>
+    </select>
+    <button class="btn" id="load">Load saved file</button>
+    <input type="file" id="file" accept=".json,application/json" hidden>
+    <button class="btn primary" id="save">Save decisions</button>
+  </div>
+  <div class="meter"><div id="meter"></div></div>
+</header>
+<main>
+  <details class="help" open>
+    <summary>How to judge (click to fold)</summary>
+    __HELP_HTML__
+    <p>Keys: <span id="keyhelp"></span> (then jumps to the next paper) · <kbd>j</kbd>/<kbd>k</kbd> next/previous ·
+      <kbd>n</kbd> note. Decisions are kept in this browser as you go; <b>Save decisions</b> downloads a file: put it in
+      <code>__SAVE_DIR__</code>.</p>
+  </details>
+  <div id="list"></div>
+</main>
+<div class="toast" id="toast"></div>
+<script>
+const PAPERS = __PAPERS__;
+const CONFIG = __CONFIG__;
+const FREEZE = "__FREEZE__", STORE = CONFIG.store_key, OPTS = CONFIG.options;
+const BTNS = OPTS.filter(o => o.button !== false);   // verdicts offered as buttons (and keys 1, 2, ...)
+const LABEL = Object.fromEntries(OPTS.map(o => [o.v, o.label]));
+const filterSel = document.getElementById("filter");
+OPTS.forEach(o => { const op = document.createElement("option"); op.value = o.v; op.textContent = o.label; filterSel.appendChild(op); });
+document.getElementById("keyhelp").innerHTML = BTNS.map((o, i) => `<kbd>${i + 1}</kbd> ${o.short || o.label}`).join(" · ");
+const sheet = document.createElement("style");
+sheet.textContent = OPTS.map(o => `.card.d-${o.v}{border-left-color:${o.color}} .decide button[data-v=${o.v}].on{background:${o.bg};border-color:${o.color};color:${o.color}}`).join("\n");
+document.head.appendChild(sheet);
+let D = {};
+try { D = JSON.parse(localStorage.getItem(STORE) || "{}") || {}; } catch (e) { D = {}; }
+D = Object.assign({}, CONFIG.preload || {}, D);   // decisions built into the page, overridden by this browser's
+const persist = () => { try { localStorage.setItem(STORE, JSON.stringify(D)); } catch (e) {} };
+
+const TERMS = /\b(JWST|James Webb( Space Telescope)?|Webb|NIRCam|NIRSpec|NIRISS|MIRI|MSA|IFU|PRISM|prism|G395[HM]|G140[HM]|G235[HM]|F\d{3,4}[WMN]|GO[- ]?\d{3,5}|GTO[- ]?\d{0,5}|ERS[- ]?\d{0,5}|DD[- ]?\d{3,5}|PID ?\d{3,5}|programs?|programmes?|Cycle \d|MAST|CEERS|JADES|UNCOVER|PRIMER|COSMOS-Web|NGDEEP|FRESCO|GLASS|EIGER|RUBIES|CANUCS|PEARLS|Facilities)\b/g;
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const mark = s => esc(s).replace(TERMS, m => `<mark>${m}</mark>`);
+
+const list = document.getElementById("list");
+function card(p) {
+  const el = document.createElement("article");
+  el.className = "card"; el.id = p.id; el.tabIndex = -1;
+  const sn = !p.snippets ? "" : p.snippets.length
+    ? `<ul class="snips">${p.snippets.map(s => `<li><span class="f">${esc(s.field)}</span>${mark(s.text)}</li>`).join("")}</ul>`
+    : `<p class="nosnip">No full-text passage highlighted for JWST terms.</p>`;
+  el.innerHTML = `
+    <div class="meta"><span class="pid">${p.id}</span><span>${p.year}</span><span>${esc(p.authors)}</span>
+      <a href="${p.ads}" target="_blank" rel="noopener">ADS</a>${p.arxiv ? ` <a href="${p.arxiv}" target="_blank" rel="noopener">arXiv</a>` : ""}${(p.links || []).map(l => ` <a href="${l.url}" target="_blank" rel="noopener">${esc(l.label)}</a>`).join("")}</div>
+    <div class="title">${mark(p.title)}</div>
+    ${p.facilities ? `<div class="adsmeta"><span><b>ADS facilities:</b> ${p.facilities.length ? mark(p.facilities.join(", ")) : "none listed"}</span>
+      <span><b>Data links:</b> ${p.data_links.length ? mark(p.data_links.join(", ")) : "none"}</span></div>` : ""}
+    <p class="abstract clamped">${mark(p.abstract)}</p><button class="more" type="button">Show the whole abstract</button>
+    ${sn}
+    <div class="decide">
+      ${BTNS.map((o, i) => `<button type="button" data-v="${o.v}">${i + 1} · ${esc(o.label)}</button>`).join("")}
+      <input type="text" placeholder="Note (optional)" aria-label="Note for ${p.id}">
+    </div>`;
+  const abs = el.querySelector(".abstract"), more = el.querySelector(".more");
+  more.onclick = () => { const c = abs.classList.toggle("clamped"); more.textContent = c ? "Show the whole abstract" : "Show less"; };
+  el.querySelectorAll(".decide button").forEach(b => b.onclick = () => decide(p.id, b.dataset.v, false));
+  const note = el.querySelector("input");
+  note.value = (D[p.id] && D[p.id].note) || "";
+  note.oninput = () => { D[p.id] = Object.assign({}, D[p.id], { note: note.value }); persist(); };
+  el.onclick = () => setFocus(p.id, false);
+  return el;
+}
+const cards = {};
+PAPERS.forEach(p => { cards[p.id] = card(p); list.appendChild(cards[p.id]); });
+
+function paint(id) {
+  const v = D[id] && D[id].decision, el = cards[id];
+  OPTS.forEach(o => el.classList.remove("d-" + o.v));
+  if (v) el.classList.add("d-" + v);
+  el.querySelectorAll(".decide button").forEach(b => b.classList.toggle("on", b.dataset.v === v));
+}
+function progress() {
+  const vals = PAPERS.map(p => D[p.id] && D[p.id].decision).filter(Boolean);
+  const c = k => vals.filter(v => v === k).length;
+  document.getElementById("progress").innerHTML =
+    `<b>${vals.length}</b> / ${PAPERS.length} decided · ` + OPTS.map(o => `${c(o.v)} ${(o.short || o.label).toLowerCase()}`).join(" · ");
+  document.getElementById("meter").style.width = (100 * vals.length / PAPERS.length) + "%";
+}
+function applyFilter() {
+  const f = document.getElementById("filter").value;
+  let shown = 0;
+  PAPERS.forEach(p => {
+    const v = D[p.id] && D[p.id].decision;
+    const ok = f === "all" || (f === "todo" ? !v : v === f);
+    cards[p.id].hidden = !ok; shown += ok;
+  });
+  let e = document.getElementById("empty");
+  if (!shown) { if (!e) { e = document.createElement("p"); e.id = "empty"; e.className = "empty"; list.appendChild(e); }
+    e.textContent = "No papers in this view."; } else if (e) e.remove();
+}
+const visible = () => PAPERS.map(p => p.id).filter(id => !cards[id].hidden);
+let focusId = null;
+function setFocus(id, scroll = true) {
+  if (focusId && cards[focusId]) cards[focusId].classList.remove("focus");
+  focusId = id; if (!id) return;
+  cards[id].classList.add("focus");
+  if (scroll) cards[id].scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function decide(id, v, advance) {
+  D[id] = Object.assign({}, D[id], { decision: v, at: new Date().toISOString() });
+  persist(); paint(id); progress();
+  if (advance) {
+    const ids = PAPERS.map(p => p.id), i = ids.indexOf(id);
+    const next = ids.slice(i + 1).concat(ids.slice(0, i)).find(x => !cards[x].hidden && !(D[x] && D[x].decision));
+    setFocus(next || id);
+  } else setFocus(id, false);
+}
+PAPERS.forEach(p => paint(p.id)); progress(); applyFilter();
+setFocus(PAPERS.map(p => p.id).find(x => !(D[x] && D[x].decision)) || PAPERS[0].id, false);
+document.getElementById("filter").onchange = () => { applyFilter(); const v = visible(); setFocus(v[0] || null); };
+
+document.addEventListener("keydown", e => {
+  if (e.target.matches("input, select, textarea") || e.metaKey || e.ctrlKey || e.altKey) {
+    if (e.key === "Escape") e.target.blur();
+    return;
+  }
+  const v = visible(), i = v.indexOf(focusId);
+  if (e.key === "j") { setFocus(v[Math.min(i + 1, v.length - 1)]); e.preventDefault(); }
+  else if (e.key === "k") { setFocus(v[Math.max(i - 1, 0)]); e.preventDefault(); }
+  else if (focusId && /^[1-9]$/.test(e.key) && BTNS[+e.key - 1]) { decide(focusId, BTNS[+e.key - 1].v, true); e.preventDefault(); }
+  else if (focusId && e.key === "n") { cards[focusId].querySelector("input").focus(); e.preventDefault(); }
+});
+
+function toast(msg) { const t = document.getElementById("toast"); t.textContent = msg; t.classList.add("show"); setTimeout(() => t.classList.remove("show"), 2200); }
+document.getElementById("save").onclick = () => {
+  const decisions = PAPERS.map(p => ({ paper_id: p.id, bibcode: p.bibcode,
+    decision: (D[p.id] && D[p.id].decision) || null, note: (D[p.id] && D[p.id].note) || "",
+    decided_at: (D[p.id] && D[p.id].at) || null }));
+  const out = { page: CONFIG.name, freeze: FREEZE, saved_at: new Date().toISOString(), options: LABEL,
+    n_decided: decisions.filter(d => d.decision).length, decisions };
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 1)], { type: "application/json" }));
+  a.download = `${CONFIG.file_prefix}_${new Date().toISOString().slice(0, 10)}.json`;
+  document.body.appendChild(a); a.click(); a.remove();
+  toast(`Saved ${out.n_decided} decisions: move the file to ${CONFIG.save_dir}`);
+};
+document.getElementById("load").onclick = () => document.getElementById("file").click();
+document.getElementById("file").onchange = async ev => {
+  const f = ev.target.files[0]; if (!f) return;
+  try {
+    const j = JSON.parse(await f.text()); let n = 0;
+    (j.decisions || []).forEach(d => { if (cards[d.paper_id] && (d.decision || d.note)) {
+      D[d.paper_id] = { decision: d.decision || undefined, note: d.note || "", at: d.decided_at || null }; n++;
+      cards[d.paper_id].querySelector("input").value = d.note || ""; paint(d.paper_id); } });
+    persist(); progress(); applyFilter(); toast(`Loaded ${n} decisions from ${f.name}`);
+  } catch (e) { toast("Could not read that file"); }
+  ev.target.value = "";
+};
+</script>
+</body>
+</html>

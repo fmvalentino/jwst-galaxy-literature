@@ -1,0 +1,5 @@
+citations,self share,test rho (trees),AUC (trees),test rho (ridge),AUC (ridge),"self share, 1-5 authors","self share, 6-15","self share, 16-50","self share, > 50"
+all,0.0,0.5413,0.8051,0.5401,0.8044,,,,
+"by other authors, rule A: name (surname + initial)",0.4171,0.4619,0.7823,0.4663,0.7744,0.2195,0.2785,0.4918,0.528
+"by other authors, rule B: ORCID, else name",0.4156,0.4615,0.7792,0.4645,0.7737,0.219,0.2765,0.4904,0.5254
+"by other authors, rule C: ORCID, else full name",0.4144,0.4637,0.7815,0.4657,0.7745,0.2178,0.2757,0.4891,0.5236

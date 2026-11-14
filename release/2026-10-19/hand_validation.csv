@@ -1,0 +1,401 @@
+paper_id,bibcode,round,group,stratum,stratum_N,stratum_n,verdict,first_pass_verdict
+P001,2023Natur.616..266L,1,accepted,all accepted,2649,75,yes_analysis,yes
+P002,2025ApJ...982...27Z,1,accepted,all accepted,2649,75,yes_analysis,yes
+P003,2024MNRAS.531.2701T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P004,2024MNRAS.531.4584S,1,rejected,score 0-2,2538,30,yes_plot,no
+P005,2023NatAs...7..611R,1,accepted,all accepted,2649,75,yes_analysis,yes
+P006,2024ApJ...963....2H,1,accepted,all accepted,2649,75,no,no
+P007,2026MNRAS.549ag918T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P008,2023ApJ...958...36S,1,accepted,all accepted,2649,75,yes_analysis,yes
+P009,2024A&A...691A.222P,1,rejected,score 3-4,734,45,no,no
+P010,2026PASA...43...37N,1,accepted,all accepted,2649,75,no,no
+P011,2024PASJ...76.1122F,1,rejected,score 3-4,734,45,no,no
+P012,2023A&A...672A...3D,1,accepted,all accepted,2649,75,yes_analysis,yes
+P013,2025ApJ...983L..37H,1,rejected,score 0-2,2538,30,yes_plot,yes
+P014,2026arXiv260922488K,1,rejected,score 3-4,734,45,yes_analysis,yes
+P015,2026arXiv260901065S,1,rejected,score 3-4,734,45,no,no
+P016,2026arXiv260217329J,1,accepted,all accepted,2649,75,yes_analysis,yes
+P017,2025A&A...704A.271S,1,rejected,score 3-4,734,45,not_galaxy,no
+P018,2025ApJ...993..117T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P019,2026arXiv260304586Z,1,accepted,all accepted,2649,75,yes_analysis,yes
+P020,2025A&A...697A..96R,1,accepted,all accepted,2649,75,yes_plot,yes
+P021,2026ApJ...999...49H,1,accepted,all accepted,2649,75,yes_analysis,yes
+P022,2026arXiv260828775F,1,rejected,score 0-2,2538,30,no,no
+P023,2026ApJ...998..299K,1,accepted,all accepted,2649,75,yes_analysis,yes
+P024,2026arXiv260520931C,1,accepted,all accepted,2649,75,yes_analysis,yes
+P025,2025MNRAS.540.2081F,1,accepted,all accepted,2649,75,yes_analysis,yes
+P026,2025arXiv251208413M,1,rejected,score 3-4,734,45,not_galaxy,no
+P027,2024ApJ...960L...1N,1,accepted,all accepted,2649,75,yes_analysis,yes
+P028,2025ApJ...993L..49S,1,accepted,all accepted,2649,75,yes_analysis,yes
+P029,2026PhRvL.136m1001E,1,rejected,score 3-4,734,45,yes_plot,yes
+P030,2026A&A...711A.301M,1,accepted,all accepted,2649,75,yes_analysis,yes
+P031,2025A&A...698A.302L,1,accepted,all accepted,2649,75,yes_analysis,yes
+P032,2026ApJ..1000L...3L,1,accepted,all accepted,2649,75,yes_analysis,yes
+P033,2026arXiv260700497J,1,rejected,score 0-2,2538,30,no,no
+P034,2023RNAAS...7..194S,1,accepted,all accepted,2649,75,not_galaxy,no
+P035,2025AJ....169..150C,1,accepted,all accepted,2649,75,yes_analysis,no
+P036,2026arXiv260812466N,1,accepted,all accepted,2649,75,yes_analysis,yes
+P037,2026A&A...707A.360C,1,accepted,all accepted,2649,75,yes_plot,yes
+P038,2026ApJ..1002..187A,1,accepted,all accepted,2649,75,yes_analysis,yes
+P039,2026ApJ...998..224F,1,rejected,score 0-2,2538,30,not_galaxy,no
+P040,2024MNRAS.533.2843A,1,rejected,score 0-2,2538,30,no,no
+P041,2026A&A...710A.374R,1,accepted,all accepted,2649,75,yes_analysis,yes
+P042,2026arXiv260803470M,1,rejected,score 3-4,734,45,yes_plot,no
+P043,2025ApJ...993..177T,1,rejected,score 3-4,734,45,not_galaxy,no
+P044,2023ApJS..266...15M,1,rejected,score 0-2,2538,30,no,no
+P045,2026OJAp....959986N,1,rejected,score 3-4,734,45,yes_plot,yes
+P046,2024RNAAS...8..153G,1,rejected,score 3-4,734,45,yes_plot,yes
+P047,2024ApJ...962...24S,1,accepted,all accepted,2649,75,yes_analysis,yes
+P048,2025ApJ...990..114S,1,rejected,score 0-2,2538,30,no,no
+P049,2025AN....34640144M,1,accepted,all accepted,2649,75,yes_plot,yes
+P050,2026A&A...708A.116M,1,rejected,score 0-2,2538,30,yes_plot,no
+P051,2026arXiv260916992I,1,rejected,score 3-4,734,45,no,no
+P052,2023JOSS....8.5407G,1,rejected,score 3-4,734,45,no,no
+P053,2025ApJ...980...10J,1,rejected,score 3-4,734,45,yes_plot,yes
+P054,2024ApJ...971...87B,1,rejected,score 0-2,2538,30,no,no
+P055,2025ApJ...979..168U,1,accepted,all accepted,2649,75,yes_analysis,yes
+P056,2026A&A...706A.135H,1,rejected,score 0-2,2538,30,not_galaxy,no
+P057,2025AstL...51..361B,1,rejected,score 3-4,734,45,no,no
+P058,2026A&A...711A.199K,1,rejected,score 0-2,2538,30,no,no
+P059,2024ApJ...965..153Y,1,rejected,score 0-2,2538,30,no,no
+P060,2026ApJ..1001..131C,1,accepted,all accepted,2649,75,no,no
+P061,2026A&A...708A..33M,1,accepted,all accepted,2649,75,yes_analysis,yes
+P062,2026arXiv260936003H,1,accepted,all accepted,2649,75,yes_analysis,yes
+P063,2026arXiv260903701W,1,rejected,score 0-2,2538,30,yes_plot,unsure
+P064,2025MUPB...80S..97C,1,accepted,all accepted,2649,75,yes_analysis,yes
+P065,2026PASJ...78.1778S,1,rejected,score 3-4,734,45,yes_analysis,yes
+P066,2026arXiv260631917B,1,accepted,all accepted,2649,75,no,no
+P067,2025MNRAS.538..518B,1,rejected,score 0-2,2538,30,yes_plot,yes
+P068,2026ApJ..1007..141C,1,accepted,all accepted,2649,75,yes_analysis,yes
+P069,2024OJAp....7E.106K,1,rejected,score 3-4,734,45,no,no
+P070,2026Galax..14...81G,1,rejected,score 3-4,734,45,no,no
+P071,2024ApJ...973...47A,1,accepted,all accepted,2649,75,yes_analysis,yes
+P072,2023ApJ...952...11N,1,accepted,all accepted,2649,75,yes_analysis,yes
+P073,2025A&A...694A.254H,1,rejected,score 3-4,734,45,yes_plot,yes
+P074,2026Natur.649..574R,1,rejected,score 3-4,734,45,yes_analysis,yes
+P075,2026arXiv260928257Z,1,rejected,score 3-4,734,45,yes_plot,unsure
+P076,2026arXiv261018282C,1,rejected,score 3-4,734,45,yes_analysis,yes
+P077,2025MNRAS.537.2273C,1,accepted,all accepted,2649,75,yes_analysis,yes
+P078,2023A&A...677A..66B,1,rejected,score 0-2,2538,30,no,no
+P079,2025PhRvL.135e1002D,1,accepted,all accepted,2649,75,not_galaxy,yes
+P080,2026ApJ..1004...82B,1,rejected,score 3-4,734,45,no,no
+P081,2025JATIS..11c1634Y,1,rejected,score 3-4,734,45,yes_plot,no
+P082,2024arXiv240917233J,1,rejected,score 3-4,734,45,yes_analysis,yes
+P083,2026PhRvD.114d3556B,1,rejected,score 3-4,734,45,not_galaxy,no
+P084,2025ApJ...991L..24T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P085,2026arXiv260823687X,1,accepted,all accepted,2649,75,yes_analysis,yes
+P086,2023RAA....23k5012H,1,rejected,score 0-2,2538,30,no,no
+P087,2026arXiv261003867K,1,accepted,all accepted,2649,75,yes_analysis,yes
+P088,2025MNRAS.541.1348P,1,accepted,all accepted,2649,75,yes_analysis,yes
+P089,2023arXiv230909232Q,1,rejected,score 3-4,734,45,not_galaxy,no
+P090,2023MNRAS.522.6236T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P091,2025A&A...702A.206A,1,accepted,all accepted,2649,75,yes_analysis,yes
+P092,2026arXiv260911510Z,1,rejected,score 0-2,2538,30,no,no
+P093,2026PhRvD.113h3523S,1,rejected,score 0-2,2538,30,no,no
+P094,2024MNRAS.530..340F,1,accepted,all accepted,2649,75,yes_analysis,yes
+P095,2024arXiv241021788N,1,rejected,score 3-4,734,45,yes_analysis,yes
+P096,2026arXiv260930834N,1,accepted,all accepted,2649,75,no,no
+P097,2025ApJ...988..135M,1,accepted,all accepted,2649,75,yes_analysis,yes
+P098,2026ApJ...998..217L,1,accepted,all accepted,2649,75,yes_analysis,yes
+P099,2026arXiv260409763R,1,accepted,all accepted,2649,75,yes_analysis,yes
+P100,2025ApJ...985..262S,1,accepted,all accepted,2649,75,not_galaxy,yes
+P101,2025ApJS..276...64F,1,accepted,all accepted,2649,75,no,no
+P102,2023arXiv231213358P,1,rejected,score 0-2,2538,30,no,no
+P103,2025ApJ...981...29O,1,rejected,score 3-4,734,45,no,no
+P104,2025ApJ...979...15K,1,accepted,all accepted,2649,75,yes_plot,yes
+P105,2025A&A...699A.334A,1,accepted,all accepted,2649,75,yes_analysis,yes
+P106,2025MNRAS.541.3367A,1,rejected,score 3-4,734,45,no,no
+P107,2025PASJ...77...21S,1,rejected,score 0-2,2538,30,no,no
+P108,2026arXiv261021710A,1,rejected,score 3-4,734,45,unsure,no
+P109,2025ApJ...991..228H,1,rejected,score 3-4,734,45,no,no
+P110,2023ApJ...959...83L,1,rejected,score 3-4,734,45,no,no
+P111,2025ApJ...979..205S,1,rejected,score 3-4,734,45,no,no
+P112,2025ApJ...991...81B,1,rejected,score 0-2,2538,30,no,no
+P113,2026arXiv260935957S,1,rejected,score 0-2,2538,30,yes_plot,yes
+P114,2026ApJ..1000..228K,1,accepted,all accepted,2649,75,yes_analysis,yes
+P115,2024MNRAS.534.3565K,1,rejected,score 0-2,2538,30,no,no
+P116,2026A&A...712A..73C,1,accepted,all accepted,2649,75,not_galaxy,no
+P117,2026A&A...707A.231E,1,rejected,score 0-2,2538,30,no,no
+P118,2026ApJ..1005...56D,1,rejected,score 3-4,734,45,yes_analysis,yes
+P119,2026JCAP...06..031G,1,rejected,score 0-2,2538,30,no,no
+P120,2025MNRAS.540.3493T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P121,2025ApJ...981...81C,1,accepted,all accepted,2649,75,no,no
+P122,2025ApJ...984..117B,1,rejected,score 0-2,2538,30,yes_plot,yes
+P123,2023A&A...677A..58M,1,rejected,score 3-4,734,45,no,no
+P124,2024ApJ...971..155H,1,accepted,all accepted,2649,75,yes_analysis,yes
+P125,2026A&A...710A.226G,1,accepted,all accepted,2649,75,yes_analysis,yes
+P126,2024ApJ...966..113L,1,accepted,all accepted,2649,75,yes_analysis,yes
+P127,2025OJAp....8E.166A,1,accepted,all accepted,2649,75,yes_analysis,yes
+P128,2023ApJ...944..108B,1,rejected,score 0-2,2538,30,no,no
+P129,2024arXiv241023337O,1,rejected,score 0-2,2538,30,yes_plot,yes
+P130,2025ApJ...979..215T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P131,2025ApJ...995...21T,1,accepted,all accepted,2649,75,yes_analysis,yes
+P132,2025arXiv251205213J,1,accepted,all accepted,2649,75,yes_analysis,yes
+P133,2025OJAp....8E..55X,1,rejected,score 3-4,734,45,yes_plot,no
+P134,2025JCAP...11..062L,1,rejected,score 3-4,734,45,not_galaxy,no
+P135,2026MNRAS.552g1644R,1,accepted,all accepted,2649,75,yes_analysis,yes
+P136,2026ApJ..1007...22L,1,rejected,score 3-4,734,45,yes_plot,yes
+P137,2024A&A...687A.117F,1,rejected,score 3-4,734,45,no,no
+P138,2026arXiv260503442D,1,rejected,score 3-4,734,45,yes_analysis,yes
+P139,2024ApJ...971..101F,1,rejected,score 3-4,734,45,not_galaxy,no
+P140,2026arXiv260712018D,1,accepted,all accepted,2649,75,yes_analysis,yes
+P141,2026arXiv261008754N,1,rejected,score 3-4,734,45,not_galaxy,no
+P142,2026arXiv260406318P,1,rejected,score 0-2,2538,30,yes_plot,no
+P143,2026MNRAS.549ag756K,1,rejected,score 3-4,734,45,yes_plot,yes
+P144,2026arXiv260115963H,1,accepted,all accepted,2649,75,yes_analysis,yes
+P145,2025PASA...42...29C,1,accepted,all accepted,2649,75,yes_analysis,yes
+P146,2026A&A...712A.173T,1,accepted,all accepted,2649,75,not_galaxy,no
+P147,2026A&A...705A.155C,1,accepted,all accepted,2649,75,yes_analysis,yes
+P148,2025MNRAS.538L..76L,1,rejected,score 3-4,734,45,no,no
+P149,2025ApJS..279...43C,1,accepted,all accepted,2649,75,yes_analysis,yes
+P150,2026arXiv260900199N,1,accepted,all accepted,2649,75,yes_analysis,yes
+P151,2026ApJ..1009....8G,2,rejected,score 0-2,2394,65,no,
+P152,2026arXiv260102961M,2,rejected,score 0-2,2394,65,not_galaxy,
+P153,2024MNRAS.527.5102V,2,rejected,score 0-2,2394,65,no,
+P154,2025ApJ...978L..44R,2,rejected,score 0-2,2394,65,no,
+P155,2025PhRvD.111b3519J,2,accepted,all accepted,2590,60,yes_analysis,
+P156,2024ApJ...976...93J,2,accepted,all accepted,2590,60,yes_analysis,
+P157,2023arXiv230411541D,2,rejected,score 0-2,2394,65,no,
+P158,2026MNRAS.545f2131C,2,rejected,score 3-4,690,25,no,
+P159,2026arXiv260922859D,2,accepted,all accepted,2590,60,yes_analysis,
+P160,2026arXiv260903537L,2,rejected,score 0-2,2394,65,yes_plot,
+P161,2026ApJ..1004..248C,2,rejected,score 0-2,2394,65,yes_analysis,
+P162,2025JCAP...10..029Z,2,rejected,score 3-4,690,25,no,
+P163,2025ApJ...980L..34L,2,accepted,all accepted,2590,60,yes_analysis,
+P164,2024RAA....24i1001H,2,rejected,score 0-2,2394,65,no,
+P165,2025ApJ...985..128F,2,rejected,score 0-2,2394,65,no,
+P166,2024arXiv241016347S,2,rejected,score 0-2,2394,65,no,
+P167,2026ApJ...998L..45D,2,accepted,all accepted,2590,60,yes_analysis,
+P168,2023MNRAS.521.5334P,2,rejected,score 0-2,2394,65,no,
+P169,2024ApJS..273...32L,2,accepted,all accepted,2590,60,not_galaxy,
+P170,2025ApJ...981..167S,2,accepted,all accepted,2590,60,yes_analysis,
+P171,2026OJAp....965032H,2,rejected,score 0-2,2394,65,no,
+P172,2024MNRAS.527.8078O,2,rejected,score 3-4,690,25,no,
+P173,2024MNRAS.527.7337V,2,rejected,score 0-2,2394,65,no,
+P174,2024A&A...692A..22Z,2,rejected,score 0-2,2394,65,no,
+P175,2024IJAA...14...45H,2,accepted,all accepted,2590,60,yes_plot,
+P176,2025arXiv251115325S,2,rejected,score 0-2,2394,65,not_galaxy,
+P177,2026arXiv260901405P,2,rejected,score 0-2,2394,65,no,
+P178,2023MNRAS.521..241V,2,accepted,all accepted,2590,60,yes_plot,
+P179,2026arXiv260609721P,2,accepted,all accepted,2590,60,yes_analysis,
+P180,2025ApJ...989L..55R,2,accepted,all accepted,2590,60,yes_analysis,
+P181,2025A&A...698L...6K,2,rejected,score 3-4,690,25,no,
+P182,2026arXiv260718440P,2,rejected,score 0-2,2394,65,no,
+P183,2025ApJ...984..170M,2,rejected,score 0-2,2394,65,no,
+P184,2024MNRAS.530.3617R,2,rejected,score 0-2,2394,65,no,
+P185,2024A&A...681A..70L,2,accepted,all accepted,2590,60,yes_analysis,
+P186,2024ApJ...963...49K,2,rejected,score 0-2,2394,65,no,
+P187,2024MNRAS.531..355U,2,accepted,all accepted,2590,60,yes_analysis,
+P188,2026arXiv260325984Z,2,accepted,all accepted,2590,60,not_galaxy,
+P189,2026arXiv260916122G,2,rejected,score 3-4,690,25,yes_plot,
+P190,2023MNRAS.524.1775H,2,rejected,score 0-2,2394,65,no,
+P191,2024A&A...681A.117P,2,accepted,all accepted,2590,60,yes_analysis,
+P192,2023A&A...675A..21Y,2,rejected,score 0-2,2394,65,no,
+P193,2026arXiv260401304G,2,rejected,score 3-4,690,25,no,
+P194,2025arXiv251215841T,2,rejected,score 0-2,2394,65,not_galaxy,
+P195,2026ApJ..1006...27J,2,rejected,score 0-2,2394,65,yes_plot,
+P196,2023MNRAS.526L..26B,2,rejected,score 3-4,690,25,yes_plot,
+P197,2025BlgAJ..42...78K,2,rejected,score 0-2,2394,65,not_galaxy,
+P198,2025ApJ...992....3Z,2,rejected,score 0-2,2394,65,no,
+P199,2025JCAP...05..019A,2,accepted,all accepted,2590,60,no,
+P200,2023MNRAS.518.5607C,2,accepted,all accepted,2590,60,yes_analysis,
+P201,2025A&A...704A..71K,2,accepted,all accepted,2590,60,yes_analysis,
+P202,2026arXiv260304401G,2,rejected,score 0-2,2394,65,not_galaxy,
+P203,2026ApJ..1008..187L,2,rejected,score 0-2,2394,65,yes_plot,
+P204,2025ApJ...980...20M,2,rejected,score 0-2,2394,65,no,
+P205,2026arXiv260619447Z,2,rejected,score 0-2,2394,65,no,
+P206,2024A&A...687A..68D,2,rejected,score 0-2,2394,65,yes_plot,
+P207,2024ApJ...962..111L,2,rejected,score 0-2,2394,65,no,
+P208,2026A&A...707A.391S,2,accepted,all accepted,2590,60,yes_analysis,
+P209,2026MNRAS.tmp.1597R,2,accepted,all accepted,2590,60,yes_analysis,
+P210,2026MNRAS.545f2115P,2,rejected,score 0-2,2394,65,no,
+P211,2026arXiv260921658H,2,rejected,score 0-2,2394,65,no,
+P212,2026arXiv260916134M,2,rejected,score 0-2,2394,65,no,
+P213,2024arXiv240206217R,2,rejected,score 3-4,690,25,yes_analysis,
+P214,2024ApJS..272...42S,2,rejected,score 0-2,2394,65,no,
+P215,2026arXiv260317967I,2,accepted,all accepted,2590,60,yes_analysis,
+P216,2023ApJ...947L..26N,2,accepted,all accepted,2590,60,yes_analysis,
+P217,2024PhRvL.132f1002S,2,rejected,score 3-4,690,25,yes_plot,
+P218,2024A&A...688A..28D,2,accepted,all accepted,2590,60,yes_plot,
+P219,2026A&A...705A.125L,2,accepted,all accepted,2590,60,yes_analysis,
+P220,2026arXiv260939923W,2,rejected,score 0-2,2394,65,not_galaxy,
+P221,2026MNRAS.550g1240Z,2,rejected,score 0-2,2394,65,no,
+P222,2026arXiv260118708K,2,rejected,score 0-2,2394,65,no,
+P223,2026arXiv260310566C,2,accepted,all accepted,2590,60,no,
+P224,2026arXiv260709961K,2,rejected,score 3-4,690,25,no,
+P225,2026ApJ..1007L..13L,2,rejected,score 3-4,690,25,yes_plot,
+P226,2026arXiv260620809N,2,rejected,score 0-2,2394,65,yes_plot,
+P227,2025ApJ...984..100Z,2,rejected,score 3-4,690,25,yes_plot,
+P228,2023ApJ...944L..55L,2,accepted,all accepted,2590,60,yes_analysis,
+P229,2023ApJ...957L..35G,2,accepted,all accepted,2590,60,yes_analysis,
+P230,2025OJAp....8E.123N,2,accepted,all accepted,2590,60,yes_analysis,
+P231,2026ApJ..1003..244F,2,accepted,all accepted,2590,60,yes_analysis,
+P232,2026arXiv260509829B,2,rejected,score 3-4,690,25,yes_analysis,
+P233,2026MNRAS.546ag124K,2,rejected,score 0-2,2394,65,no,
+P234,2025ApJ...987..189E,2,accepted,all accepted,2590,60,yes_analysis,
+P235,2026MNRAS.549ag778R,2,rejected,score 3-4,690,25,no,
+P236,2025MNRAS.543..167J,2,rejected,score 0-2,2394,65,no,
+P237,2026ApJS..282...57V,2,accepted,all accepted,2590,60,not_galaxy,
+P238,2023ApJ...952...88C,2,rejected,score 0-2,2394,65,no,
+P239,2026OJAp....965333A,2,rejected,score 3-4,690,25,yes_analysis,
+P240,2026ApJ..1005...11W,2,accepted,all accepted,2590,60,yes_analysis,
+P241,2023MNRAS.519.4564L,2,accepted,all accepted,2590,60,no,
+P242,2026A&A...714A.233A,2,accepted,all accepted,2590,60,yes_analysis,
+P243,2025ApJ...995...93D,2,accepted,all accepted,2590,60,yes_analysis,
+P244,2023arXiv230705917B,2,rejected,score 3-4,690,25,not_galaxy,
+P245,2025PhRvD.112j3034A,2,rejected,score 3-4,690,25,no,
+P246,2026A&A...705A.229S,2,rejected,score 3-4,690,25,not_galaxy,
+P247,2023ApJS..265...21R,2,rejected,score 3-4,690,25,yes_analysis,
+P248,2024ApJ...962....5N,2,rejected,score 0-2,2394,65,no,
+P249,2025ApJ...978..136S,2,accepted,all accepted,2590,60,yes_analysis,
+P250,2026ApJ..1002..129B,2,accepted,all accepted,2590,60,yes_analysis,
+P251,2023A&A...675A.121C,2,rejected,score 0-2,2394,65,yes_plot,
+P252,2025arXiv250418006Y,2,rejected,score 0-2,2394,65,yes_analysis,
+P253,2026arXiv260915967M,2,rejected,score 0-2,2394,65,yes_plot,
+P254,2025ApJ...994..174I,2,rejected,score 3-4,690,25,no,
+P255,2025arXiv250114366S,2,rejected,score 0-2,2394,65,not_galaxy,
+P256,2025ScrV..155..329D,2,rejected,score 3-4,690,25,yes_analysis,
+P257,2025MNRAS.544..782H,2,accepted,all accepted,2590,60,yes_analysis,
+P258,2025BAAA...66..317D,2,rejected,score 0-2,2394,65,no,
+P259,2026ApJ..1009..220C,2,rejected,score 0-2,2394,65,yes_analysis,
+P260,2026ApJ..1006...76C,2,accepted,all accepted,2590,60,yes_analysis,
+P261,2026A&A...707A.286H,2,rejected,score 0-2,2394,65,no,
+P262,2026MNRAS.547ag401D,2,accepted,all accepted,2590,60,yes_analysis,
+P263,2024MNRAS.527.4173L,2,accepted,all accepted,2590,60,yes_analysis,
+P264,2025MNRAS.537..788H,2,accepted,all accepted,2590,60,yes_analysis,
+P265,2025arXiv250408933C,2,rejected,score 0-2,2394,65,yes_plot,
+P266,2026MNRAS.546ag049F,2,accepted,all accepted,2590,60,yes_analysis,
+P267,2025A&A...699A.105A,2,rejected,score 3-4,690,25,no,
+P268,2026arXiv260630802X,2,rejected,score 0-2,2394,65,yes_analysis,
+P269,2024ApJ...962..164T,2,accepted,all accepted,2590,60,yes_analysis,
+P270,2024ApJ...976..160H,2,accepted,all accepted,2590,60,yes_analysis,
+P271,2024ApJ...967..169B,2,accepted,all accepted,2590,60,no,
+P272,2023A&A...676A..53L,2,rejected,score 3-4,690,25,yes_plot,
+P273,2025A&A...704A.158C,2,accepted,all accepted,2590,60,yes_analysis,
+P274,2025ApJ...991L..52L,2,rejected,score 3-4,690,25,no,
+P275,2025PASA...42...34S,2,rejected,score 0-2,2394,65,no,
+P276,2026ApJ...997..290A,2,accepted,all accepted,2590,60,yes_plot,
+P277,2026NatAs..10.1208X,2,accepted,all accepted,2590,60,yes_analysis,
+P278,2024AJ....168..220H,2,accepted,all accepted,2590,60,not_galaxy,
+P279,2024ApJ...967...11C,2,accepted,all accepted,2590,60,yes_analysis,
+P280,2025MNRAS.544.3774S,2,accepted,all accepted,2590,60,yes_plot,
+P281,2025ApJ...983..121W,2,accepted,all accepted,2590,60,yes_analysis,
+P282,2023PDU....4201329M,2,rejected,score 0-2,2394,65,not_galaxy,
+P283,2026ApJ..1000..308W,2,accepted,all accepted,2590,60,yes_analysis,
+P284,2023MNRAS.522..330I,2,rejected,score 0-2,2394,65,yes_plot,
+P285,2026arXiv260628296A,2,rejected,score 0-2,2394,65,no,
+P286,2026MNRAS.550g1220I,2,accepted,all accepted,2590,60,yes_analysis,
+P287,2026ApJ..1007L..25Y,2,rejected,score 0-2,2394,65,no,
+P288,2024ApJ...965..123L,2,rejected,score 0-2,2394,65,no,
+P289,2026arXiv260705087S,2,rejected,score 0-2,2394,65,yes_analysis,
+P290,2024A&A...690A..64M,2,accepted,all accepted,2590,60,yes_analysis,
+P291,2026ApJS..285...61K,2,rejected,score 0-2,2394,65,yes_analysis,
+P292,2025ApJ...994...65N,2,accepted,all accepted,2590,60,yes_analysis,
+P293,2024arXiv240207571C,2,rejected,score 0-2,2394,65,not_galaxy,
+P294,2025A&A...694A.178C,2,accepted,all accepted,2590,60,yes_analysis,
+P295,2024SCPMA..6711011G,2,rejected,score 3-4,690,25,no,
+P296,2025MNRAS.536.2433P,2,rejected,score 0-2,2394,65,no,
+P297,2025PhRvD.112b3512W,2,rejected,score 0-2,2394,65,no,
+P298,2023MNRAS.518L..45C,2,accepted,all accepted,2590,60,yes_analysis,
+P299,2026JCAP...01..008C,2,accepted,all accepted,2590,60,yes_plot,
+P300,2025A&A...696A.236P,2,rejected,score 0-2,2394,65,no,
+P301,2025A&A...697A..94G,3,accepted,accepted,2252,75,yes_analysis,
+P302,2023ApJ...946L..15K,3,accepted,accepted,2252,75,yes_analysis,
+P303,2026A&A...707A.376C,3,accepted,accepted,2252,75,yes_analysis,
+P304,2025A&A...695A..20S,3,accepted,accepted,2252,75,yes_analysis,
+P305,2026ApJ..1008...86L,3,rejected,weak text,359,25,yes_analysis,
+P306,2024ApJ...961..171F,3,accepted,accepted,2252,75,yes_analysis,
+P307,2023ApJ...956...84V,3,rejected,weak text,359,25,no,
+P308,2026ApJ...998..219P,3,accepted,accepted,2252,75,not_galaxy,
+P309,2024ApJ...964..154P,3,accepted,accepted,2252,75,yes_plot,
+P310,2023A&A...677A..39M,3,rejected,weak text,359,25,not_galaxy,
+P311,2024arXiv241108723S,3,rejected,weak text,359,25,yes_plot,
+P312,2025A&A...699A.203B,3,accepted,accepted,2252,75,yes_analysis,
+P313,2025ApJ...983...91P,3,rejected,weak text,359,25,yes_analysis,
+P314,2024A&A...684A..24P,3,accepted,accepted,2252,75,yes_analysis,
+P315,2026arXiv260907851W,3,accepted,accepted,2252,75,yes_analysis,
+P316,2023ApJ...953..102F,3,accepted,accepted,2252,75,yes_analysis,
+P317,2025MNRAS.537.3662T,3,accepted,accepted,2252,75,yes_analysis,
+P318,2023MNRAS.518..592K,3,accepted,accepted,2252,75,yes_analysis,
+P319,2025A&A...700A.218P,3,accepted,accepted,2252,75,yes_analysis,
+P320,2026ApJ...997..364L,3,accepted,accepted,2252,75,yes_analysis,
+P321,2026arXiv260617210C,3,rejected,weak text,359,25,yes_analysis,
+P322,2024PCCP...2619332S,3,rejected,weak text,359,25,no,
+P323,2023ApJ...958..176W,3,accepted,accepted,2252,75,yes_analysis,
+P324,2025MNRAS.541.1988M,3,accepted,accepted,2252,75,yes_analysis,
+P325,2025ApJ...989L..35C,3,accepted,accepted,2252,75,yes_analysis,
+P326,2024arXiv240301692N,3,rejected,weak text,359,25,not_galaxy,
+P327,2026RAA....26e5016S,3,accepted,accepted,2252,75,yes_analysis,
+P328,2025ApJ...991L..10S,3,accepted,accepted,2252,75,yes_analysis,
+P329,2026A&A...714A.139F,3,accepted,accepted,2252,75,yes_analysis,
+P330,2026arXiv260808203M,3,accepted,accepted,2252,75,yes_analysis,
+P331,2024A&A...689A..67G,3,rejected,weak text,359,25,no,
+P332,2026arXiv260935969L,3,rejected,weak text,359,25,yes_analysis,
+P333,2024ApJ...960L..10L,3,accepted,accepted,2252,75,yes_analysis,
+P334,2026arXiv260202485H,3,rejected,weak text,359,25,yes_analysis,
+P335,2024PASJ...76..219O,3,accepted,accepted,2252,75,yes_analysis,
+P336,2026A&A...708A.373L,3,accepted,accepted,2252,75,yes_analysis,
+P337,2026ApJ..1000..211W,3,accepted,accepted,2252,75,yes_analysis,
+P338,2026arXiv260404284G,3,accepted,accepted,2252,75,yes_analysis,
+P339,2025ApJ...993..204H,3,accepted,accepted,2252,75,yes_analysis,
+P340,2024A&A...690A.302G,3,accepted,accepted,2252,75,yes_analysis,
+P341,2023MNRAS.518L..19R,3,accepted,accepted,2252,75,yes_analysis,
+P342,2025A&A...696A.234P,3,accepted,accepted,2252,75,yes_analysis,
+P343,2024JCAP...07..018E,3,rejected,weak text,359,25,no,
+P344,2026MNRAS.551g1546A,3,accepted,accepted,2252,75,yes_analysis,
+P345,2023ApJ...944L..50R,3,accepted,accepted,2252,75,yes_analysis,
+P346,2023ApJ...944L..11C,3,accepted,accepted,2252,75,yes_analysis,
+P347,2025A&A...699A..59S,3,accepted,accepted,2252,75,yes_plot,
+P348,2024MNRAS.529.3301T,3,accepted,accepted,2252,75,yes_analysis,
+P349,2024A&A...691A..69R,3,accepted,accepted,2252,75,yes_analysis,
+P350,2025A&A...693A.309S,3,accepted,accepted,2252,75,yes_analysis,
+P351,2026arXiv260421516C,3,rejected,weak text,359,25,yes_analysis,
+P352,2023ApJ...955..138C,3,rejected,weak text,359,25,no,
+P353,2026ApJ..1003..171S,3,accepted,accepted,2252,75,no,
+P354,2024ApJ...975..114R,3,rejected,weak text,359,25,yes_plot,
+P355,2026arXiv260403182J,3,rejected,weak text,359,25,yes_analysis,
+P356,2024A&A...684A.207F,3,accepted,accepted,2252,75,yes_plot,
+P357,2026ApJ...996....8W,3,accepted,accepted,2252,75,yes_analysis,
+P358,2026ApJ..1010..184S,3,accepted,accepted,2252,75,yes_analysis,
+P359,2024MNRAS.52711882L,3,accepted,accepted,2252,75,yes_analysis,
+P360,2025ApJ...983..165S,3,accepted,accepted,2252,75,yes_analysis,
+P361,2024A&A...684A.193A,3,rejected,weak text,359,25,yes_plot,
+P362,2024ApJ...968..118P,3,rejected,weak text,359,25,no,
+P363,2025ApJS..278...45F,3,accepted,accepted,2252,75,yes_analysis,
+P364,2026arXiv260612509S,3,rejected,weak text,359,25,yes_analysis,
+P365,2026arXiv260937358L,3,rejected,weak text,359,25,yes_analysis,
+P366,2026arXiv260625022W,3,rejected,weak text,359,25,yes_analysis,
+P367,2024A&A...690A..95A,3,accepted,accepted,2252,75,yes_analysis,
+P368,2026A&A...710A.229R,3,rejected,weak text,359,25,yes_analysis,
+P369,2024MNRAS.529..802H,3,accepted,accepted,2252,75,yes_analysis,
+P370,2025ApJ...993...70H,3,accepted,accepted,2252,75,yes_analysis,
+P371,2026arXiv261010244M,3,rejected,weak text,359,25,yes_analysis,
+P372,2024MNRAS.535..853J,3,accepted,accepted,2252,75,yes_analysis,
+P373,2025MNRAS.542.2998H,3,accepted,accepted,2252,75,yes_analysis,
+P374,2025MNRAS.540..190M,3,accepted,accepted,2252,75,yes_analysis,
+P375,2024MNRAS.532.2270B,3,accepted,accepted,2252,75,yes_analysis,
+P376,2024ApJ...971..124U,3,accepted,accepted,2252,75,yes_analysis,
+P377,2025ApJS..277....4D,3,accepted,accepted,2252,75,yes_analysis,
+P378,2026ApJ..1005..108M,3,accepted,accepted,2252,75,yes_analysis,
+P379,2025A&A...702A.157E,3,accepted,accepted,2252,75,yes_analysis,
+P380,2025ApJ...985...80R,3,accepted,accepted,2252,75,yes_analysis,
+P381,2024MNRAS.533.2391D,3,accepted,accepted,2252,75,yes_analysis,
+P382,2026arXiv260318775W,3,accepted,accepted,2252,75,yes_analysis,
+P383,2023MNRAS.526.2400M,3,accepted,accepted,2252,75,yes_analysis,
+P384,2025ApJ...979..249B,3,accepted,accepted,2252,75,yes_analysis,
+P385,2023ApJ...944L..20K,3,accepted,accepted,2252,75,yes_analysis,
+P386,2026arXiv260910532K,3,rejected,weak text,359,25,yes_analysis,
+P387,2026arXiv260616853B,3,accepted,accepted,2252,75,yes_analysis,
+P388,2025A&A...698A.317M,3,accepted,accepted,2252,75,yes_analysis,
+P389,2026ApJ..1004..161H,3,accepted,accepted,2252,75,yes_analysis,
+P390,2026arXiv260329652M,3,rejected,weak text,359,25,yes_analysis,
+P391,2024ApJ...967L..42W,3,accepted,accepted,2252,75,yes_analysis,
+P392,2023RNAAS...7...23W,3,accepted,accepted,2252,75,not_galaxy,
+P393,2025ApJ...991...37A,3,accepted,accepted,2252,75,yes_analysis,
+P394,2026ApJ..1007..133A,3,accepted,accepted,2252,75,yes_analysis,
+P395,2025A&A...704A.100G,3,accepted,accepted,2252,75,yes_analysis,
+P396,2024A&A...687A..67M,3,accepted,accepted,2252,75,yes_analysis,
+P397,2026arXiv260505327G,3,accepted,accepted,2252,75,yes_analysis,
+P398,2026ApJ..1008L..11C,3,accepted,accepted,2252,75,yes_analysis,
+P399,2026arXiv260425991L,3,accepted,accepted,2252,75,yes_analysis,
+P400,2024MNRAS.532.3102S,3,accepted,accepted,2252,75,no,

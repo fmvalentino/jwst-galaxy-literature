@@ -1,0 +1,11 @@
+# Python 3.12 (runs were made with 3.12.11). Install with: python -m pip install -r requirements.txt
+numpy==2.4.4
+pandas==2.3.3
+scipy==1.16.2
+scikit-learn==1.7.2
+matplotlib==3.10.6
+requests==2.32.5
+# notebooks 01-04, executed with jupyter nbconvert
+nbformat==5.10.4
+nbconvert==7.16.6
+ipykernel==6.30.1

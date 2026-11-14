@@ -1,0 +1,14 @@
+features,n features,model,test rho,AUC (top 10%),top 10% hit rate,times chance
+all features,58,ridge,0.5401,0.8044,0.5238,4.9063
+all features,58,trees,0.5413,0.8051,0.5,4.6833
+journal only,8,ridge,-0.0102,0.475,0.1548,1.4496
+journal only,8,trees,-0.0099,0.4741,0.1548,1.4496
+team size only,2,ridge,0.3327,0.6449,0.2738,2.5647
+team size only,2,trees,0.2847,0.6306,0.2381,2.2302
+topics only,9,ridge,0.3545,0.7904,0.4167,3.9028
+topics only,9,trees,0.3436,0.807,0.4762,4.4603
+first author's record only,3,ridge,0.3121,0.6594,0.25,2.3417
+first author's record only,3,trees,0.2938,0.6511,0.1667,1.5611
+team size + first author + topics,14,ridge,0.5102,0.8215,0.4643,4.3488
+team size + first author + topics,14,trees,0.4455,0.7947,0.4762,4.4603
+"rank 6 months after posting (05_rank_stability, older papers)",1,-,0.8868,,0.7387,7.3874

@@ -1,0 +1,5 @@
+variant,papers,ridge rho,ridge AUC,trees rho,trees AUC,coefficient correlation,"significant effects, same sign"
+whole sample,2055,0.5401,0.8044,0.5413,0.8051,1.0,1.0
+curated papers only,1836,0.5621,0.8245,0.5699,0.8212,0.9691,1.0
+"random subsets, same size (2.5th pct.)",1836,0.5097,0.7712,0.5182,0.7836,0.9887,1.0
+"random subsets, same size (97.5th pct.)",1836,0.5571,0.8186,0.5571,0.8237,0.9957,1.0

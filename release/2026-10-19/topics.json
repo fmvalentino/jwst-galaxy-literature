@@ -1,0 +1,71 @@
+{
+ "freeze": "2026-10-19",
+ "candidate_query": "abs:(\"galaxy\" OR \"galaxies\") AND (arxiv_class:(\"astro-ph.GA\" OR \"astro-ph.CO\") OR (*:* NOT arxiv_class:astro-ph*)) AND full:\"JWST\" AND (abs:\"JWST\" OR title:\"JWST\" OR full:(NIRSpec OR NIRCam OR NIRISS OR MIRI OR \"JWST data\" OR \"JWST observations\" OR \"JWST imaging\" OR \"JWST spectroscopy\" OR \"JWST spectra\" OR \"JWST photometry\" OR CEERS OR JADES OR UNCOVER OR PRIMER OR \"COSMOS-Web\" OR NGDEEP OR FRESCO OR GLASS))",
+ "data_use_min_score": 7,
+ "topics (regular expressions, case-insensitive, whole words, title + abstract)": {
+  "First galaxies": [
+   "first galaxies",
+   "earliest galaxies",
+   "cosmic dawn",
+   "z\\s*\\$?\\s*(?:[>≳~∼≈=]|\\\\gtrsim|\\\\geq|\\\\ge|\\\\sim|\\\\approx|\\\\simeq)\\s*\\$?\\s*(?:1[0-9]|[2-9][0-9])(?:\\.\\d+)?|redshifts?\\s+(?:above|beyond|of|greater than|>)\\s*(?:1[0-9])"
+  ],
+  "Little Red Dots": [
+   "little red dots?"
+  ],
+  "Black holes & AGN": [
+   "AGNs?",
+   "active galactic nucle(?:us|i)",
+   "black holes?",
+   "quasars?",
+   "QSOs?",
+   "quasi-stellar objects?",
+   "blazars?",
+   "Seyferts?"
+  ],
+  "Population III": [
+   "Population III",
+   "Pop[ -]?III",
+   "first stars"
+  ],
+  "Reionization": [
+   "reioni[sz]ation"
+  ],
+  "Quenching": [
+   "quiescent",
+   "passive",
+   "quenched",
+   "quenching",
+   "post-starburst"
+  ],
+  "Dust": [
+   "dust (?:emission|continuum|mass(?:es)?|temperatures?|attenuation|extinction)",
+   "attenuation (?:law|curves?)",
+   "Balmer decrements?",
+   "UV(?:[- ]continuum)? slopes?",
+   "dust[- ]obscured",
+   "dusty star-forming"
+  ],
+  "Chemical abundances": [
+   "chemical abundances?",
+   "chemical enrichment",
+   "metallicit(?:y|ies)",
+   "oxygen",
+   "carbon",
+   "nitrogen",
+   "iron",
+   "magnesium",
+   "(?:Fe|Mg) abundances?",
+   "(?!S\\s*/\\s*N\\b)\\[?(?:H|He|C|N|O|Ne|Mg|Si|S|Ar|Fe)\\s*/\\s*(?:H|He|C|N|O|Ne|Mg|Si|S|Ar|Fe)\\]?"
+  ],
+  "Lensing": [
+   "lensing",
+   "weak lensing",
+   "lensed",
+   "gravitational lens(?:es)?",
+   "strong lens(?:es)?"
+  ]
+ },
+ "topic exclusions": {
+  "Black holes & AGN": "Little Red Dots"
+ }
+}

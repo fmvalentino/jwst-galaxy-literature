@@ -1,0 +1,73 @@
+topic,half_year,partial,count,papers in half-year,share_pct
+First galaxies,2023 H1,False,31,135,22.963
+First galaxies,2023 H2,False,29,164,17.683
+First galaxies,2024 H1,False,39,229,17.031
+First galaxies,2024 H2,False,41,251,16.335
+First galaxies,2025 H1,False,41,281,14.591
+First galaxies,2025 H2,False,51,376,13.564
+First galaxies,2026 H1,False,59,467,12.634
+First galaxies,2026 H2,True,45,321,14.019
+Little Red Dots,2023 H1,False,0,135,0.0
+Little Red Dots,2023 H2,False,0,164,0.0
+Little Red Dots,2024 H1,False,5,229,2.183
+Little Red Dots,2024 H2,False,8,251,3.187
+Little Red Dots,2025 H1,False,21,281,7.473
+Little Red Dots,2025 H2,False,35,376,9.309
+Little Red Dots,2026 H1,False,59,467,12.634
+Little Red Dots,2026 H2,True,43,321,13.396
+Black holes & AGN,2023 H1,False,25,135,18.519
+Black holes & AGN,2023 H2,False,52,164,31.707
+Black holes & AGN,2024 H1,False,74,229,32.314
+Black holes & AGN,2024 H2,False,78,251,31.076
+Black holes & AGN,2025 H1,False,93,281,33.096
+Black holes & AGN,2025 H2,False,124,376,32.979
+Black holes & AGN,2026 H1,False,160,467,34.261
+Black holes & AGN,2026 H2,True,100,321,31.153
+Population III,2023 H1,False,3,135,2.222
+Population III,2023 H2,False,9,164,5.488
+Population III,2024 H1,False,7,229,3.057
+Population III,2024 H2,False,7,251,2.789
+Population III,2025 H1,False,5,281,1.779
+Population III,2025 H2,False,13,376,3.457
+Population III,2026 H1,False,10,467,2.141
+Population III,2026 H2,True,5,321,1.558
+Reionization,2023 H1,False,28,135,20.741
+Reionization,2023 H2,False,32,164,19.512
+Reionization,2024 H1,False,48,229,20.961
+Reionization,2024 H2,False,55,251,21.912
+Reionization,2025 H1,False,50,281,17.794
+Reionization,2025 H2,False,50,376,13.298
+Reionization,2026 H1,False,59,467,12.634
+Reionization,2026 H2,True,45,321,14.019
+Quenching,2023 H1,False,11,135,8.148
+Quenching,2023 H2,False,14,164,8.537
+Quenching,2024 H1,False,22,229,9.607
+Quenching,2024 H2,False,25,251,9.96
+Quenching,2025 H1,False,44,281,15.658
+Quenching,2025 H2,False,43,376,11.436
+Quenching,2026 H1,False,73,467,15.632
+Quenching,2026 H2,True,40,321,12.461
+Dust,2023 H1,False,37,135,27.407
+Dust,2023 H2,False,37,164,22.561
+Dust,2024 H1,False,39,229,17.031
+Dust,2024 H2,False,59,251,23.506
+Dust,2025 H1,False,56,281,19.929
+Dust,2025 H2,False,87,376,23.138
+Dust,2026 H1,False,125,467,26.767
+Dust,2026 H2,True,73,321,22.741
+Chemical abundances,2023 H1,False,24,135,17.778
+Chemical abundances,2023 H2,False,44,164,26.829
+Chemical abundances,2024 H1,False,33,229,14.41
+Chemical abundances,2024 H2,False,63,251,25.1
+Chemical abundances,2025 H1,False,57,281,20.285
+Chemical abundances,2025 H2,False,95,376,25.266
+Chemical abundances,2026 H1,False,104,467,22.27
+Chemical abundances,2026 H2,True,74,321,23.053
+Lensing,2023 H1,False,27,135,20.0
+Lensing,2023 H2,False,26,164,15.854
+Lensing,2024 H1,False,36,229,15.721
+Lensing,2024 H2,False,33,251,13.147
+Lensing,2025 H1,False,29,281,10.32
+Lensing,2025 H2,False,44,376,11.702
+Lensing,2026 H1,False,60,467,12.848
+Lensing,2026 H2,True,51,321,15.888
