@@ -336,9 +336,18 @@ Result: purity 94.6% [91, 98] (174 of 184 sample papers belong), completeness 64
 two passes over round 1: 93%, κ = 0.84.
 
 ### Step 13 — checks
-- `python checks/topic_matcher.py`: the local topic matcher against ADS's phrase search of the freeze date (which also
-  reads keywords), on the 2,227 sample papers: Jaccard index 0.67-1.00, median 0.92, over the eight topics searched in ADS
+- `python checks/topic_search.py`: ADS's own phrase search per topic, with the phrase lists of the matcher written as
+  ADS phrases (`ADS_PHRASES`, checked against `TOPICS` before any query; element ratios and the First-galaxies
+  redshift pattern cannot be searched), among the sample papers: title, abstract and keywords, fixed fields. Writes
+  `data/<freeze>/topics_sample_search.json`; a rerun with the same queries makes no query. Edit `ADS_PHRASES` with
+  `TOPICS`. (The search inside `topics_sample_pull.json` used the lists of the freeze date, before phrases were added
+  to three of them.)
+- `python checks/topic_matcher.py`: the local topic matcher against that search, on the 2,227 sample papers: papers
+  found by both, by ADS only (a phrase in the keywords only) and by the matcher only, and the Jaccard index per topic
   (`checks/topic_matcher.csv`; `checks/topic_matcher.png` shows what the index measures and the overlap per topic).
+  Result (search of 2026-11-16): 0.85-1.00 for seven topics (median 0.97); the differences are papers that name the
+  phrase only in their keywords, plus 10 element-ratio papers found by the matcher only. Population III 0.46: the
+  MNRAS / A&A keyword "dark ages, reionization, first stars" adds 70 reionization papers that do not name the topic.
 - `python checks/first_galaxies_threshold.py`: the First galaxies share by year for a redshift threshold of 8, 9 or
   10 (`checks/first_galaxies_threshold.csv`): it falls by 34-37% from 2023 to 2026 whatever the threshold, while the
   papers found by the phrases alone stay between 4% and 6%.

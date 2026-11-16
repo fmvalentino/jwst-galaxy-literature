@@ -1,9 +1,9 @@
 scope,topic,ADS,local,both,ADS only,local only,agreement (Jaccard)
 sample,Little Red Dots,171,171,171,0,0,1.0
-sample,Black holes & AGN,645,706,633,12,73,0.8816
+sample,Black holes & AGN,723,706,705,18,1,0.9738
+sample,Population III,129,59,59,70,0,0.4574
+sample,Reionization,430,367,367,63,0,0.8535
 sample,Quenching,276,272,272,4,0,0.9855
-sample,Dust,526,513,506,20,7,0.9493
-sample,Reionization,426,367,367,59,0,0.8615
-sample,Chemical abundances,434,494,432,2,62,0.871
+sample,Dust,534,513,513,21,0,0.9607
+sample,Chemical abundances,486,494,484,2,10,0.9758
 sample,Lensing,316,306,306,10,0,0.9684
-sample,Population III,53,59,45,8,14,0.6716

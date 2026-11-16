@@ -1,11 +1,11 @@
 """Check of the local topic matcher (common/trending_shared.py) against ADS's own phrase search.
 
-The topic pull of the freeze (data/<freeze>/topics_sample_pull.json) holds, per topic, the sample papers ADS
-returned for the topic's phrases with =abs: (title + abstract + keywords). The local matcher reads title
-and abstract only. For every topic searched in ADS, on the same papers, this reports the papers found by both, by
-ADS only (mostly a phrase in the keywords only) and by the matcher only, and the agreement (Jaccard index).
-Phrases added to a list after that search (Population III, Chemical abundances, Black holes & AGN) show up as
-papers found by the matcher only; First galaxies was not searched in ADS.
+ADS's phrase search with the same phrase lists as the matcher (data/<freeze>/topics_sample_search.json, from
+checks/topic_search.py): per topic, the sample papers ADS returns with =abs: (title + abstract + keywords). The
+local matcher reads title and abstract only. For every topic searched in ADS, on the same papers, this reports the
+papers found by both, by ADS only (mostly a phrase in the keywords only) and by the matcher only (element ratios
+such as N/O, which ADS cannot search, and differences in how a word is split), and the agreement (Jaccard index).
+First galaxies is not searched in ADS (its redshift pattern cannot be).
 Writes checks/topic_matcher.csv and checks/topic_matcher.png (a, the Jaccard index on the topic with the lowest
 agreement; b, papers found by both, by ADS only and by the matcher only, per topic). Run from the repository root:
     python checks/topic_matcher.py
@@ -27,21 +27,18 @@ from common.figstyle import CAT, INK, apply_style  # noqa: E402
 from common.trending_shared import clean_text, topic_texts, topics_of  # noqa: E402
 
 # ADS searches of the freeze -> topic of the list they correspond to
-ADS_TO_LIST = {"Little Red Dots": "Little Red Dots", "AGN": "Black holes & AGN", "Black holes": "Black holes & AGN",
-               "Quenching": "Quenching", "Dust": "Dust", "Reionization": "Reionization",
-               "Chemical abundances": "Chemical abundances", "Lensing": "Lensing", "Population III": "Population III"}
 rows = []
 for scope, fname in (("sample", "topics_sample_pull.json"),):
     pull = json.load(open(data(fname)))
+    search = json.load(open(data("topics_sample_search.json")))["topics"]
     sample = set(pd.read_csv(os.path.join(GEN_OUT, "sample.csv"))["bibcode"])
     bibs = [d["bibcode"] for d in pull["corpus_docs"] if d["bibcode"] in sample]
     texts = topic_texts(bibs)
     local = {b: set(topics_of(clean_text(texts.get(b, {}).get("title")) + " "
                               + clean_text(texts.get(b, {}).get("abstract")))) for b in bibs}
-    lrd_ads = {d["bibcode"] for subs in [pull["topics"]["Little Red Dots"]] for docs in subs.values() for d in docs}
-    for topic in sorted(set(ADS_TO_LIST.values()), key=list(ADS_TO_LIST.values()).index):
-        ads = {d["bibcode"] for t, subs in pull["topics"].items() if ADS_TO_LIST.get(t) == topic
-               for docs in subs.values() for d in docs} & set(bibs)
+    lrd_ads = set(search["Little Red Dots"])
+    for topic in search:
+        ads = set(search[topic]) & set(bibs)
         if topic == "Black holes & AGN":
             ads -= lrd_ads
         mine = {b for b in bibs if topic in local[b]}

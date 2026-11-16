@@ -22,6 +22,7 @@ python general/11_sample_topics_by_half_year.py
 python general/tools/score_validation.py   # purity / completeness from the blind review (measures only)
 
 # checks
+python checks/topic_search.py          # ADS phrase search with the matcher's lists (cached after the first run)
 python checks/topic_matcher.py         # local topic matcher vs. ADS phrase search
 python checks/first_galaxies_threshold.py   # First galaxies trend for z >= 8, 9, 10
 python checks/topic_sensitivity.py     # topic trends with narrow, current and broad phrase lists
